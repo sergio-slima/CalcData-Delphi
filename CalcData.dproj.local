@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/12/06 15:23:32.000.309,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/06 15:26:08.000.601,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/19 08:25:00.000.681,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/19 08:41:01.000.552,D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\Principal.fmx=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/12/19 08:41:01.000.552,D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\Principal.pas=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/12/19 08:41:08.000.859,D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\CalcIdade.dproj=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/12/19 09:37:39.000.142,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\Unit1.pas</Transaction>
+    <Transaction>2019/12/19 09:41:02.000.014,D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\UCalcular.pas=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\Unit1.pas</Transaction>
+    <Transaction>2020/07/01 20:03:18.000.351,D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\CalcData.dproj=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\CalcIdade.dproj</Transaction>
+    <Transaction>2020/07/03 05:18:30.000.625,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\uFormat.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0024244874" Android64="0024244874"/>
+	</ActiveMobileDevice>
+</BorlandProject>
