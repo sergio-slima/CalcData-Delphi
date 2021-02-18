@@ -13,6 +13,6 @@
     <Transaction>2020/07/03 05:18:30.000.625,=D:\Users\Desenvolvimento\Documents\Embarcadero\Studio\Projects\CursoPOO\CalcIdade\uFormat.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile iOSSimulator="iPhone5" Android="0024244874" Android64="0024244874"/>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64=""/>
 	</ActiveMobileDevice>
 </BorlandProject>

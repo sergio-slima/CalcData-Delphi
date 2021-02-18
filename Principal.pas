@@ -123,6 +123,7 @@ type
     procedure EdtDataFinalTyping(Sender: TObject);
     procedure EdtDataInicialTyping(Sender: TObject);
     procedure edtNascimentoTyping(Sender: TObject);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
   private
     { Private declarations }
   public
@@ -253,7 +254,7 @@ end;
 
 procedure TFormCalcData.btnSairClick(Sender: TObject);
 begin
-  Application.Terminate;
+  Close;
 end;
 
 procedure TFormCalcData.EdtDataFinalTyping(Sender: TObject);
@@ -269,6 +270,27 @@ end;
 procedure TFormCalcData.edtNascimentoTyping(Sender: TObject);
 begin
   Formatar(edtNascimento, TFormato.Dt);
+end;
+
+procedure TFormCalcData.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+  CanClose := False;
+  MessageDlg('Deseja sair da aplicação?',
+        TMsgDlgType.mtInformation, [TMsgDlgBtn.mbYes, TMsgDlgBtn.mbNo], 0,
+        procedure (const BotaoPressionado : TModalResult)
+        begin
+          case BotaoPressionado of
+            mrYes: begin
+            {$IF DEFINED(ANDROID)}
+              SharedActivity.Finish;
+            {$ENDIF}
+            end;
+            mrNo: begin
+              //
+            end;
+          end;
+        end
+  );
 end;
 
 procedure TFormCalcData.FormCreate(Sender: TObject);
@@ -307,7 +329,7 @@ begin
   end else
   begin
     d1 := StrToDate(edtNascimento.Text);
-    d2 := Date;
+    d2 := Now;
   end;
 
   if d1 = StartOfTheMonth(d1) then
